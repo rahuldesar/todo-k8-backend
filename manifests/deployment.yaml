@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: todo-k8-backend
+  name: todo-k8-backend-dep
   labels:
-    app: todo-k8-backend
+    app: todo-k8-backend-dep
 spec:
   selector:
     matchLabels:
